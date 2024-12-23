@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         NHValidator.printMessage("Hello World")
+
+        let isValidEmail = NHValidator.isValidEmail("nirobhasan@gmail.com")
+        print("isValidEmail: \(isValidEmail)")
     }
 
 

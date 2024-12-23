@@ -1,0 +1,109 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NHValidationKit",
+    "printedName": "NHValidationKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NHValidationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NHValidator",
+        "printedName": "NHValidator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printMessage",
+            "printedName": "printMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NHValidationKit11NHValidatorC12printMessageyySSFZ",
+            "mangledName": "$s15NHValidationKit11NHValidatorC12printMessageyySSFZ",
+            "moduleName": "NHValidationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isValidEmail",
+            "printedName": "isValidEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NHValidationKit11NHValidatorC12isValidEmailySbSSFZ",
+            "mangledName": "$s15NHValidationKit11NHValidatorC12isValidEmailySbSSFZ",
+            "moduleName": "NHValidationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15NHValidationKit11NHValidatorC",
+        "mangledName": "$s15NHValidationKit11NHValidatorC",
+        "moduleName": "NHValidationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

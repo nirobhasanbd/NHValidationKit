@@ -1,0 +1,6 @@
+framework module NHValidationKit {
+  umbrella header "NHValidationKit.h"
+  export *
+
+  module * { export * }
+}
