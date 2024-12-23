@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NHValidationKit"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "NHValidationKit is a validation framework for iOS platform."
 
   # This description is used to generate tags and improve search results.
@@ -118,6 +118,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.vendored_frameworks = "XCFramework/NHValidationKit.xcframework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
