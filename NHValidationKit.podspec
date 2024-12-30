@@ -17,8 +17,15 @@ Pod::Spec.new do |spec|
   spec.author             = { "Nirob Hasan" => "hasan53nirob@gmail.com" }
   spec.platform     = :ios, "15.6"
   spec.source       = { :git => "https://github.com/nirobhasanbd/NHValidationKit.git", :tag => "#{spec.version}" }
-  # spec.source_files  = "NHValidationKit/**/*.{swift}"
   spec.vendored_frameworks = "XCFramework/NHValidationKit.xcframework"
   spec.swift_version = "5.0"
 
 end
+
+# Release process
+# ./build-framework.sh
+# git add .
+# git commit -m "message"
+# git push origin master
+# pod spec lint
+# pod trunk push NHValidationKit.podspec
